@@ -24,5 +24,10 @@ function appendDriver(name) {
 }
 
 function prependDriver(name) {
-  var newArray = drivers.
+  var newArray = drivers.slice()
+  newArray.pop(name)
+  return newArray
 }
+
+
+
