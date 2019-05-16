@@ -35,4 +35,10 @@ function removeLastDriver() {
   return newArray
 }
 
+function removeFirstDriver() {
+  var newArray = drivers.slice()
+  newArray.slice()
+  return newArray
+}
+
 
