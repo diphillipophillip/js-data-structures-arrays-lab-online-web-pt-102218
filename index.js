@@ -25,7 +25,7 @@ function appendDriver(name) {
 
 function prependDriver(name) {
   var newArray = drivers.slice()
-  newArray.pop(name)
+  newArray.unshift(name)
   return newArray
 }
 
